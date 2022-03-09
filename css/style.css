@@ -1,0 +1,502 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+body{
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+	background: white;
+	color: black;
+	font-size: 15px; 
+	line-height: 1.5;
+}
+a{
+	color: #262626;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.menuburger{
+	cursor: pointer;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	z-index: 2;
+	display: none;
+}
+.clr{
+	clear:both;
+}
+.container{
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+}
+.mainnav{
+	display: flex;
+	align-items: center;
+	height: 60px;
+	justify-content: space-between;
+	padding: 35px 0;
+	padding-top: 40px;
+	font-size: 13px;
+
+}
+.mainnav .logo{
+	width: 150px;
+}
+.mainnav ul{
+	display: flex;
+}
+.mainnav ul.mainmenu{
+	flex: 1;
+	margin-left: 50px;
+}
+
+.mainnav ul li{
+	padding: 0 10px;
+}
+.mainnav ul li a{
+	padding-bottom: 3px;
+}
+.notcurrent:hover{
+	border-bottom: 2px solid #262626;
+}
+.buttonaref{
+	cursor: pointer;
+	display: inline-block;
+	border: 0;
+	font-weight: bold;
+	padding: 10px 20px;
+	background: red;
+	color: white;
+	font-size: 15px;
+	width: 200px;
+	text-align: center;
+}
+.buttonaref:hover{
+	opacity: 0.8;
+}
+.showcase{
+	width: 100%;
+	height: 400px;
+	background: url('../darkhouse.jpg') center center;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: flex-start;
+	color: white;
+	font-weight: bold;
+}
+.showcase p, .showcase a{
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+.showcase h2{
+	margin-top: 80px;
+	margin-left: 40px;
+}
+.current{
+	color: red;
+	font-weight: bold;
+}
+.current:hover{
+	padding-bottom: 3px;
+	border-bottom: 2px solid red;
+}
+.cardsect{
+	width: 100%;
+	padding-top: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	margin-bottom: 10px;
+}
+.cardsect img{
+	width: 100%;
+}
+.overrider{
+	padding: 0px;
+	margin: 0px;
+}
+.cardsect h3{
+	margin-bottom: 5px;
+}
+.cardsect a{
+	display: inline-block;
+	padding-top: 10px;
+	color: blue;
+	text-transform:  uppercase;
+	font-weight: bold;
+}
+.cardsect a:hover i{
+	margin-left: 10px;
+}
+.formspreedoc{
+	width: 80%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	border: 2px black solid;
+	background-color: #F0F0F0;
+	/*margin-top: 15px;
+    box-shadow: 20px 20px black;*/
+}
+.formspreedoc form{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.formspreedoc form textarea{
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 10px;
+	resize: none;
+}
+.formspreedoc form input[type="text"]{
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 10px;
+}
+.formspreedoc form input[type="email"]{
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 10px;
+}
+.formspreedoc h1{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.formspreedoc p{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.formspreedoc form button{
+	margin-top: 18px;
+	margin-bottom: 8px;
+	border: 2px white solid;
+	color: white;
+	background-color: green;
+	font-weight: bold;
+	/* top, right, bottom, and left */
+	padding: 15px 25px 15px 25px;		
+}
+.formspreedoc form div{
+	display: grid;
+	grid-template-columns: 2fr 9fr;
+	text-align: right;
+	row-gap: 15px;
+	margin-top: 10px;
+}
+/*.formspreedoc form div *:nth-child(odd){
+	justify-items: right;
+}
+.formspreedoc form div *:nth-child(even){
+	justify-items: left;
+}
+.formspreedoc form div label{
+	padding-right: 15px;
+}
+.formspreedoc form div{
+	display: flex;
+	align-items:  center;
+	justify-content: center;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	flex: 2 2 auto;
+}*/
+.formspreedoc2{
+	margin-top:30px;
+}
+.follower a img{
+	width: 25px;
+}
+.follower{
+	padding-top: 15px;
+	display: flex;
+}
+.follower *{
+	margin-right: 10px;
+}
+.footer1{
+	background: #f2f2f2;
+	color: #616161;
+	font-size: 12px;
+	padding: 35px 0;
+	margin-top: 15px;
+}
+.innerlinks{
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 12px;
+	align-items: flex-start;
+	justify-content: center;
+}
+.footer1 li{
+	line-height: 2.8;
+}
+.footmain{
+	
+}
+.innerfoot{
+	background-color: #f2f2f2;
+	color:#616161;
+	font-size: 12px;
+	padding: 35px 0;
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.innerfoot ul{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.innerfoot ul li{
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+.hdcherd{
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+}
+.dfdfdf{
+	margin-right: 6px;
+}
+.divarr{
+	width: 100%;
+	height: 400px;
+	background: url('../spaceroom.jpg') center center;
+	border: ghostwhite 2px solid;
+}
+.mapperbox{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15px;
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+    /*padding-bottom: 75%; 
+    height: 0;*/
+}
+.mapperbox div {
+		position: relative;
+        overflow: hidden;
+}
+.mapperbox div iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.vidjabox{
+	width: 100%;
+	/*padding: 20px;
+	margin: auto;
+	border: 2px black solid;*/
+	background-color: #F0F0F0;
+	display: grid;
+	grid-template-columns: 11fr 7fr;
+	grid-gap: 20px;
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+    /*box-shadow: 20px 20px black;*/
+}
+.vidjabox div h3, .vidjabox div p{
+	text-align: center;
+	font-style: italic;
+}
+.borderish {
+ 	position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+   	overflow: hidden;
+}	
+.borderish iframe{
+   	position: absolute;
+   	top: 0;
+   	left: 0;
+   	width: 100% !important;
+   	height: 100% !important;
+	border: 10px #cc5522 groove;
+}
+@media(max-width: 800px){
+	.innerfoot ul li{
+		margin-right: 0px;
+		margin-left: 15px;
+		margin-bottom: 15px;
+	}
+	.hdcherd{
+		width: 100%;
+		margin-right: 0px;
+	}
+}
+@media(max-width:700px){
+	.menuburger{
+		display: block;
+	}
+	.menuburger:hover{
+		opacity: 0.5;
+	}
+	.rightmenu{
+		margin-right: 75px;
+	}
+	.mainnav ul.mainmenu{
+		display: block;
+		position: fixed;
+		top:0;
+		margin-left: 0px;
+		left: 0;
+		background-color: #f2f2f2;
+		width: auto;
+		height: 100%;
+		border-right: #ccc 1px solid;
+		opacity: 0.9;
+		padding: 30px;
+		transform: translateX(-500px);
+		transition: transform 0.5s ease-in-out;
+	}
+	.mainnav ul.mainmenu li{
+		padding: 10px;
+		border-bottom: #ccc solid 1px;
+		font-size: 18px;
+	}
+	.mainnav ul.mainmenu li:last-child{
+		border-bottom: 0;
+	}
+	.mainnav ul.mainmenu.show{
+		transform: translateX(-20px);
+	}
+	.mainmenu.show{
+		transform: translateX(-20px);
+	}
+	.showcase{
+		background-size: cover; /* or contain depending on what you want */
+		background-repeat: no-repeat;
+	}
+	.showcase h2{
+		border: 2px solid black;
+  		background: white;
+  		padding-top: 10px;
+  		padding-bottom: 10px;
+		color: black;
+		width: 300px;
+		text-align: center;
+		margin-right: 40px;
+		border-radius: 10px;
+	}
+	.showcase p{
+		border: 2px solid black;
+  		background: white;
+  		padding: 10px;
+		color: black;
+		max-width: 400px;
+		margin-top: 15px;
+		text-align: center;
+		border-radius: 10px;
+		margin-right: 40px;
+	}
+	.container{
+		width: 100%;
+	}
+	.cardsect{
+		width: 95%;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 10px;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.cardsect div{
+		text-align: center;
+	}
+	.follower{
+		width: 95%;
+		margin: auto;
+	}
+	.innerlinks{
+		padding: 0;
+		grid-template-columns: 1fr 1fr 1fr;
+		width:95%;
+	}
+	.innerlinks ul{
+		margin-bottom: 25px;
+	}
+	.footer1{
+		padding-bottom:0;
+	}
+}
+@media(max-width:600px){
+	.formspreedoc{
+		width: 100%;
+		border: 0;
+	}
+	.footer1{
+		margin-top: 10px;
+	}
+	.vidjabox{
+		display: none;
+	}
+}
+@media(max-width:450px){
+	.showcase h2{
+		visibility: hidden;
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.showcase p{
+		visibility: hidden;
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.showcase a{
+		margin: 30px auto;
+	}
+	.cardsect{
+		width: 90%;
+		grid-template-columns: 1fr;
+		grid-gap: 0px;
+		margin: auto;
+	}
+	.cardsect div{
+		margin-bottom: 20px;
+	}
+	.innerlinks{
+		grid-template-columns: 1fr 1fr;
+		text-align: center;
+	}
+	.innerfoot{
+		justify-content: space-around;
+		font-size: 10px;
+	}
+	.innerfoot ul{
+		display: initial;
+		flex-wrap: none;
+	}
+	.innerfoot ul li{
+		margin: 0;
+		line-height: 50px;
+	}
+	.hdcherd{
+		width: initial;
+		margin-right: 20px;
+		margin-bottom: 0px;
+	}
+}
+
+
