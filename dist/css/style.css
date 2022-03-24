@@ -217,7 +217,8 @@ ul{
 }
 .follower{
 	padding-top: 15px;
-	display: flex;
+	/* display: flex; */
+	padding-bottom: 15px;
 }
 .follower *{
 	margin-right: 10px;
