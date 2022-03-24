@@ -99,7 +99,7 @@ padding-left: 7px;
 padding-right: 7px;
 color: white;
 border-radius: 10px;
-margin-top:2px;
+margin-top:12px;
 }
 #indexshowcaretext{
 	border: 2px solid black;
@@ -119,12 +119,135 @@ margin-top:2px;
 	margin: auto;
 }
 #newsletter input[type="email"]{
-	height: 25px;
+	/* height: 25px; */
 	width : 250px;
+}
+.widering{
+	width: 350px;
 }
 .worclas{
 	padding-bottom: 35px;
 }
+.formspreedoc{
+	width: 80%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	border: 2px black solid;
+	background-color: #F0F0F0;
+	/*margin-top: 15px;
+    box-shadow: 20px 20px black;*/
+}
+.formspreedoc form{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.follower a img{
+	width: 25px;
+}
+.bigtastic{
+	margin: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
+.quotebigy{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quotebigydiv{
+	padding-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+}
+.paddingert{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.follower{
+	padding-top: 15px;
+	/* display: flex; 
+	padding-left: 15px;*/
+}
+.follower *{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.preformerbox{
+	padding-bottom: 15px;
+}
+.postformerbox{
+	padding-top: 15px;
+}
+.formspreedoc form textarea{
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 10px;
+	resize: none;
+}
+.formspreedoc form input[type="text"]{
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 10px;
+}
+.formspreedoc form input[type="email"]{
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 10px;
+}
+.formspreedoc h1{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.formspreedoc p{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.formspreedoc form button{
+	margin-top: 18px;
+	margin-bottom: 8px;
+	border: 2px white solid;
+	color: white;
+	background-color: green;
+	font-weight: bold;
+	/* top, right, bottom, and left */
+	padding: 15px 25px 15px 25px;	
+	background-color: #aa5500;	
+}
+.formspreedoc form div{
+	display: grid;
+	grid-template-columns: 2fr 9fr;
+	text-align: right;
+	row-gap: 15px;
+	margin-top: 10px;
+}
+/*.formspreedoc form div *:nth-child(odd){
+	justify-items: right;
+}
+.formspreedoc form div *:nth-child(even){
+	justify-items: left;
+}
+.formspreedoc form div label{
+	padding-right: 15px;
+}
+.formspreedoc form div{
+	display: flex;
+	align-items:  center;
+	justify-content: center;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	flex: 2 2 auto;
+}*/
+.formspreedoc2{
+	margin-top:30px;
+}
+
 .containernews{
 	width: 100%;
 	margin: auto;
@@ -166,6 +289,17 @@ color: #fff;
 padding: 10px;
 box-sizing: border-box;
 }
+.trboxerwq{
+	text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.newsletter1{
+	width: 100%;
+}
+.alittleoffthetop{
+	margin-top: 0px;
+}
 aside ul li a img{
 	width: 20px;
 	padding-right: 11px;
@@ -199,6 +333,9 @@ margin-top: 20px;
 	box-sizing: border-box;
 	text-align: center;
 	padding-bottom: 30px;
+	padding-top:60px;
+	padding-right: 40px;
+	padding-left: 40px;
 }
 .ul_services{
 margin: 0;
@@ -234,7 +371,7 @@ footer{
 	overflow: auto;
 }
 footer p{
-	margin: auto;
+	/* margin: auto; */
 	text-align: center;
 	margin-bottom: 25px;
 	margin-top:10px;
@@ -252,7 +389,7 @@ footer a:hover{
 	padding:15px;
 	background:#333;
 	color:white;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 box-sizing: border-box;
 }
 #darksidebar .quote input, #darksidebar .quote textarea{
@@ -316,10 +453,30 @@ tr:nth-child(even) {
 }
 .wtfggg {
 	margin: 0;
-	padding-top: 25px;
+	/* padding-top: 25px; */
 	padding-right: 30px;
 	padding-left: 90px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
+}
+.bottompadderx{
+	padding-bottom: 25px;
+}
+.answerresponser{
+	padding-right: 35px;
+	padding-left: 35px;
+}
+.quotestylerpbox{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.quoteblogblock{
+	padding-right: 120px;
+	padding-left: 240px;
+	padding-bottom: 20px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 .picadjustery {
 	width: 300px;
@@ -331,6 +488,7 @@ tr:nth-child(even) {
 }
 .demoheaderrealtor {
 	padding-top: 50px;
+	margin-top: 0;
 }
 
 
@@ -593,7 +751,17 @@ tr:nth-child(even) {
 		text-align: center;
 	}
 }
+@media(max-width:700px){
+	.follower{
+		width: 95%;
+		margin: auto;
+	}	
+}
 @media(max-width:600px){
+	.formspreedoc{
+		width: 100%;
+		border: 0;
+	}
 	.main-col{
 		float: none;
 		width: 100%;
