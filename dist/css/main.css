@@ -25,7 +25,7 @@ header{
 	margin: auto;
 	overflow: hidden;
 	/* background: url('../pexels-photo-2594992.jpeg') center center; */
-	background: url('../capecoral.jpg') center center;
+	background: url('../capecoral.jpg') no-repeat center;
 	height: 750px;	
 }
 header nav{
@@ -123,7 +123,7 @@ border-radius: 10px;
 #newsletter form{
 	margin: auto;
 }
-#newsletter input[type="email"]{
+.plamb{
 	/* height: 25px; */
 	width : 250px;
 }
@@ -203,7 +203,7 @@ border-radius: 10px;
 	margin: 0 auto;
 	margin-left: 10px;
 }
-.formspreedoc form input[type="email"]{
+.planx{
 	width: 90%;
 	margin: 0 auto;
 	margin-left: 10px;
@@ -803,7 +803,7 @@ tr:nth-child(even) {
 		padding-bottom: 0px;
 		width: 75%;
 	}
-	#newsletter input[type="email"] {
+	.plamb{
 		width: auto;
 	}
 	.paddingadderer{
