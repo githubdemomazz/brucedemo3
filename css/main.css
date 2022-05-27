@@ -1,12 +1,13 @@
 body{
-	/* background-color: orange; */
+	background-color: beige;
 	color: #555;
 	font:16px/1.6em arial, helvetica, sans-serif;
 	margin:0;
 	padding:0;
 }
 header{
-	background: coral;
+	/* background: coral; */
+	background: url('../redswipe.png');
 	color: #fff;
 	min-height: 70px;
 	padding:0px 0px;
@@ -47,11 +48,12 @@ header nav{
 	padding: 0;
 }
 #navbar a{
-	color:#fff;
+	color:black;
 	text-decoration: none;
 	font-size: 16px;
 	padding-right: 25px;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 #navbar .current{
 	color: red;
@@ -69,9 +71,11 @@ header h1{
 	width: 100%; 
 	min-height: 80vh;
 	max-height: 90%;
-	background: url('../pexels-photo-2594992.jpeg') center center;
+	background: url('../ccoral2.jpg') center center;
 	background-size: cover; /* or contain depending on what you want */
 	background-repeat: no-repeat;
+	background-position: 50% 80%;
+	border-bottom: #e8491d 3px solid;
 }
 #showcase .container2{
 	display: grid;
@@ -118,7 +122,8 @@ border-radius: 10px;
 
 #newsletter{
 	color: white;
-	background:#35424a;
+	/* background:#35424a; */
+	background: #ff9c65;
 }
 #newsletter form{
 	margin: auto;
@@ -220,13 +225,13 @@ border-radius: 10px;
 .formspreedoc form button{
 	margin-top: 18px;
 	margin-bottom: 8px;
-	border: 2px white solid;
-	color: white;
+	/* border: 2px white solid; */
+	color: black;
 	background-color: green;
 	font-weight: bold;
 	/* top, right, bottom, and left */
 	padding: 15px 25px 15px 25px;	
-	background-color: #aa5500;	
+	background-color: #f7ff49;	
 }
 .formspreedoc form div{
 	display: grid;
@@ -282,9 +287,11 @@ box-sizing: border-box;
 }
 .dark{
 	padding:15px;
-	background:#aa5500;
-	color:white;
+	background:#f7ff49;
+	color:black;
 	margin-bottom: 10px;
+	border: black 3px solid;
+	
 }
 .bgclr456 {
     background-color: lightskyblue;
@@ -292,10 +299,12 @@ box-sizing: border-box;
 #sidebar{
 float:right;
 width:30%;
-background: #333;
-color: #fff;
+background: #01ffcd;
+color: black;
 padding: 10px;
 box-sizing: border-box;
+border: black 3px solid;
+
 }
 .trboxerwq{
 	text-decoration: none;
@@ -307,6 +316,7 @@ box-sizing: border-box;
 }
 .alittleoffthetop{
 	margin-top: 0px;
+	color: black;
 }
 aside ul li a img{
 	width: 20px;
@@ -476,6 +486,9 @@ tr:nth-child(even) {
 .answerresponser{
 	padding-right: 35px;
 	padding-left: 35px;
+}
+.quotestyler{
+	background-color: white;
 }
 .quotestylerpbox{
     /* padding-right: 175px;
@@ -784,6 +797,10 @@ tr:nth-child(even) {
 	#navbar ul{
 		top: 0%;
 	}
+	#navbar a{
+		color: black;
+	}
+
 	.paddingat650{
 		padding-left: 15px;
 	}
