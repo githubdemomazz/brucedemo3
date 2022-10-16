@@ -15,6 +15,7 @@ header{
 	width: 100%;
 	display: grid;
 	grid-template-columns: 3fr 5fr;
+	background-size: cover;
 }
 .container2{
 	width: 90%;
@@ -28,6 +29,7 @@ header{
 	/* background: url('../pexels-photo-2594992.jpeg') center center; */
 	background: url('../capecoral.jpg') no-repeat center;
 	height: 750px;	
+	background-size: cover;
 }
 header nav{
 	/* padding-left: 15px;
@@ -513,9 +515,9 @@ tr:nth-child(even) {
 	width: 300px;
 	float: left;
 	padding-left: 100px;
-	padding-top: 125px;
-	padding-right: 55px;
-	padding-bottom: 30px;
+    padding-top: 100px;
+    padding-right: 55px;
+    padding-bottom: 60px;
 }
 .demoheaderrealtor {
 	padding-top: 50px;
@@ -787,7 +789,7 @@ tr:nth-child(even) {
 		width: 300px;
 		float: none;
 		padding-left: 0px;
-		padding-top: 125px;
+		padding-top: 75px;
 		padding-right: 0px;
 		padding-bottom: 0px;
 	}
